@@ -1,25 +1,25 @@
-# 📊 Expense Data Analysis
+# Expense Data Analysis
 
-A Python project to analyze and visualize monthly family expenses.  
-This script loads data from **Excel**, processes it with **pandas**, and generates multiple plots and a summary report.  
-All visualizations are saved in the `plots/` folder and compiled into a single PDF.
+A Python project that analyzes and visualizes monthly family expenses using Excel data.  
+The workflow processes raw expense data, generates insights, and produces visual and report outputs.
 
----
-
-## 🚀 Features
+## Features
 - Reads expense data from `Expense_data.xlsx`
-- Cleans and reshapes data for analysis
-- Calculates:
-  - ✅ Total expenses
-  - ✅ Average monthly expense
-  - ✅ Totals by category
-  - ✅ Monthly totals
-- Generates charts:
-  - 🥧 Pie chart: Expenses by category
-  - 📈 Line chart: Monthly expenses over time
-  - 📊 Bar chart: Category totals
-  - 📊 Stacked bar chart: Monthly expenses by category
-- Saves:
-  - All plots as `.png` in `/plots`
-  - A **summary Excel file** (`Expense_summary.xlsx`)
-  - A **PDF report** (`Expense_report.pdf`)
+- Cleans and reshapes data using pandas
+- Computes:
+  - Total expenses
+  - Average monthly expense
+  - Category-wise totals
+  - Monthly totals
+- Generates visualizations:
+  - Pie chart: expenses by category
+  - Line chart: monthly expenses over time
+  - Bar chart: category totals
+  - Stacked bar chart: monthly expenses by category
+- Outputs:
+  - All plots saved as `.png` in `plots/`
+  - Summary Excel file: `Expense_summary.xlsx`
+  - PDF report: `Expense_report.pdf`
+
+## Tools
+Python, pandas, matplotlib, seaborn, openpyxl
